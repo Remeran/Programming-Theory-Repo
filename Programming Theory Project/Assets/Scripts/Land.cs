@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// INHERITANCE
 public class Land : Animal
 {
     float boundry = 70f;
@@ -18,6 +19,7 @@ public class Land : Animal
     {
         if (SceneManager.GetActiveScene().name == "Selection")
         {
+            // ABSTRACTION
             Rotate();
         }
 
@@ -27,6 +29,7 @@ public class Land : Animal
         }
     }
 
+    // POLYMORPHISM
     protected override void ConstrainMovement()
     {
         if (transform.position.x < -boundry) 

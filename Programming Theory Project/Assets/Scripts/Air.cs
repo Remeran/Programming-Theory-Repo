@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// INHERITANCE
 public class Air : Animal
 {
     private float flySpeed = 10f;
@@ -18,6 +19,7 @@ public class Air : Animal
     {
         if (SceneManager.GetActiveScene().name == "Selection")
         {
+            // ABSTRACTION
             Rotate();
         }
 
@@ -28,6 +30,7 @@ public class Air : Animal
         }
     }
 
+    // POLYMORPHISM
     protected override void Move()
     {
         base.Move();
@@ -43,7 +46,7 @@ public class Air : Animal
             animalAnimator.SetFloat("Speed_f", flySpeed);
         }
     }
-
+    // POLYMORPHISM
     protected override void ConstrainMovement()
     {
         if(transform.position.y < 0)

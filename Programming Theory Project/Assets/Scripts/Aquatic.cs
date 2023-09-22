@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// INHERITANCE
 public class Aquatic : Animal
 {
     private float swimSpeed = 10f;
@@ -18,6 +19,7 @@ public class Aquatic : Animal
     {
         if (SceneManager.GetActiveScene().name == "Selection")
         {
+            // ABSTRACTION
             Rotate();
         }
 
@@ -27,6 +29,7 @@ public class Aquatic : Animal
         }
     }
 
+    // POLYMORPHISM
     protected override void Move()
     {
         base.Move();
@@ -41,7 +44,7 @@ public class Aquatic : Animal
             animalAnimator.SetFloat("Speed_f", swimSpeed);
         }
     }
-
+    // POLYMORPHISM
     protected override void ConstrainMovement()
     {
         if (transform.position.y > -.8f)

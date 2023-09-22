@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public abstract class Animal : MonoBehaviour
 {
     protected string animalName;
+    // ENCAPSULATION
     public string description { get; protected set; }
     private float rotationSpeed = 50f;
     protected float speed = 20f;
