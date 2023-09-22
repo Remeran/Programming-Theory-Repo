@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Land : Animal
 {
+    float boundry = 70f;
     void Awake()
     {
-        animalName = gameObject.name;
+        animalName = "Deer";
         animalAnimator = GetComponent<Animator>();
         description = animalName + " has the Land component, which inherits from the Animal class. It gets its base movement (Forward, backward, and rotation) from the Animal class and has no added functionality. It's movement is constrained via overriden abstract method called ConstrainMovement() in the Animal Class. (Every animal has different constraints)";
     }
@@ -28,7 +29,22 @@ public class Land : Animal
 
     protected override void ConstrainMovement()
     {
-        
+        if (transform.position.x < -boundry) 
+        {
+            transform.position = new Vector3(-boundry, transform.position.y, transform.position.z);
+        }
+        if(transform.position.x > boundry) 
+        {
+            transform.position = new Vector3(boundry, transform.position.y, transform.position.z);
+        }
+        if (transform.position.z < -boundry)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, -boundry);
+        }
+        if(transform.position.z > boundry)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, boundry);
+        }
     }
 
 }
