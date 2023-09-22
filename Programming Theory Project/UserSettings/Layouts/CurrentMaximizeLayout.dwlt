@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 1115
+  controlID: 9297
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 1036
+  controlID: 9197
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -214,7 +214,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -170.40002, y: -26.666687}
+      snapOffset: {x: -171, y: -26.666687}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
@@ -478,7 +478,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
-      index: 8
+      index: 9
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -495,20 +495,33 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Cinemachine Tool Settings
+      index: 8
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     m_OverlaysVisible: 1
   m_WindowGUID: 9528bdf36d2eee541a00c0219b0dad5e
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1701, y: 992, z: 0}
+    m_Target: {x: 10.977051, y: 160.89478, z: -97.427124}
     speed: 2
-    m_Value: {x: 1701, y: 992, z: 0}
+    m_Value: {x: 10.977051, y: 160.89478, z: -97.427124}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -536,17 +549,17 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -554,17 +567,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: -0.05156177, y: 0.9272153, z: -0.1390062, w: -0.3439334}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0.051561777, y: 0.92721546, z: -0.13900623, w: -0.34393346}
   m_Size:
-    m_Target: 162.78821
+    m_Target: 535.02466
     speed: 2
-    m_Value: 162.78821
+    m_Value: 535.02466
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 0.40799996
     m_SpeedNormalized: 0.19999999
@@ -694,14 +707,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.7364211
+    - e00: 0.7212371
       e01: 0
       e02: 0
-      e03: -21.821075
+      e03: 0
       e10: 0
-      e11: 0.7364211
+      e11: 0.7212371
       e12: 0
-      e13: 52.776825
+      e13: 56.496918
       e20: 0
       e21: 0
       e22: 1
@@ -713,11 +726,11 @@ MonoBehaviour:
     - e00: 0.7364211
       e01: 0
       e02: 0
-      e03: -21.821075
+      e03: 147.28441
       e10: 0
       e11: 0.7364211
       e12: 0
-      e13: 52.776825
+      e13: 52.776855
       e20: 0
       e21: 0
       e22: 1
@@ -729,11 +742,11 @@ MonoBehaviour:
     - e00: 0.7364211
       e01: 0
       e02: 0
-      e03: -21.821075
+      e03: 224.17896
       e10: 0
       e11: 0.7364211
       e12: 0
-      e13: 52.776825
+      e13: 28.776886
       e20: 0
       e21: 0
       e22: 1
@@ -759,9 +772,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 40a135c99fdce2c4eb95e8e306ed8d49, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 790a59d5c287faa44a67a04ce02dc54c, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 7884845635786648681, guid: 40a135c99fdce2c4eb95e8e306ed8d49, type: 2}
+  - m_Target: {fileID: 8569500564648781733, guid: 790a59d5c287faa44a67a04ce02dc54c, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -771,7 +784,7 @@ MonoBehaviour:
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_CurrentEditor: 0
+  m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 --- !u!114 &7
@@ -859,7 +872,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 1083
+  controlID: 9248
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -925,7 +938,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2efbffffaa590000bc590000
+      m_ExpandedIDs: e091ffff2c93ffff88b0ffff84bcffff3cc5ffff9cd6ffff5ee0ffff12f7ffff06fbffff745f0000925f000054750000b0750000ce750000627c00004e9300007e930000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1020,7 +1033,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Asset Store/Course Library/Environments/Sky
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1037,7 +1050,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: be670000
     m_LastClickedID: 26558
-    m_ExpandedIDs: ffffffff00000000805c0000825c0000845c0000865c0000
+    m_ExpandedIDs: ee69ffffffffffff00000000865e0000885e00008c5e00008e5e0000905e0000945e0000a2a50000c2a5000036a60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1065,7 +1078,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000805c0000825c0000845c0000865c0000
+    m_ExpandedIDs: ee69ffffffffffff00000000865e0000885e00008c5e00008e5e0000905e0000945e0000a2a50000c2a5000036a60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

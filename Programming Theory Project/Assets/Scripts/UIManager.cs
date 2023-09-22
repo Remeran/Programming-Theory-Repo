@@ -8,6 +8,7 @@ using UnityEditor;
 
 public class UIManager : MonoBehaviour
 {
+    public static Animal animal;
     public void StartGame()
     {
         SceneManager.LoadScene(1);

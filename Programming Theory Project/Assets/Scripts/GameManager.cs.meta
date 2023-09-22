@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 928f37300a6f60c4db84658587b0812c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - sparrowPrefab: {fileID: 1108189311516319747, guid: 293604760c0375e428d59bfb710bf0d3, type: 3}
+  - deerPrefab: {fileID: 3226046301190553641, guid: 7ca67fe423bec7f4d8be17b00613e1b2, type: 3}
+  - squidprefab: {fileID: 1372494795240590354, guid: b51072fcb49cb3e4abbf46227857063a, type: 3}
+  - descriptionText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
